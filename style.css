@@ -70,7 +70,7 @@ button {
   border-color: black;
   border-radius: 8px;
   border-width: 1px;
-  box-shadow:  4px 6px 32px #1F2937;
+  box-shadow: 0px 0px 5px 2px #f9faf8;
   transform: scale(1); 
   transition-duration: .3s;
   padding: 8px 75px;
@@ -93,7 +93,7 @@ font {
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
-  padding: 0 10vw;
+  padding: 0 10vw 4vw 10vw;
   background-repeat: no-repeat;
   box-shadow:  30px 5px 30px black;
   border-radius: 0 0 30px 30px;
@@ -164,6 +164,7 @@ font {
   border-radius: 30px;
   border: solid 3px #3882f6;
   box-shadow:  2px 2px 16px black; 
+  margin: 0 32px 4px 32px;
 }
 
 .top-menu-container {
@@ -172,11 +173,16 @@ font {
   align-items: center;
 }
 
+h2 {
+  padding: 50px 0;
+}
+
 .top-menu-images {
   display: flex;
   flex-direction: row;
+
 }
 
-h2 {
-  padding: 50px 0;
+.menu-descriptions {
+  
 }
