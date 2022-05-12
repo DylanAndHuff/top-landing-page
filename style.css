@@ -120,10 +120,13 @@ font {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -35px;
+
 }
 
 .top-links {
   width: 112px;
+  margin-top: -30px;
 }
 
 .hero-and-image {
@@ -136,7 +139,7 @@ font {
   color: #F9FAF8;
 }
 
-.hero-text  {
+.hero-text:after  {
   display: flex;
   flex-direction: column;
   font-size: 24px;
@@ -154,4 +157,26 @@ font {
   margin: 4px;
   padding-bottom: 8px;
   position: relative;
+}
+
+.bagel-sammy {
+  width: 300px;
+  border-radius: 30px;
+  border: solid 3px #3882f6;
+  box-shadow:  2px 2px 16px black; 
+}
+
+.top-menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-menu-images {
+  display: flex;
+  flex-direction: row;
+}
+
+h2 {
+  padding: 50px 0;
 }
