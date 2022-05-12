@@ -6,7 +6,7 @@ body {
 
 .benedict {
   display: flex;
-  box-shadow:  2px 2px 8px black;
+  box-shadow:  4px 6px 32px black;
   border-radius: 30px;
   width: 450px;
   flex-grow: .5;
@@ -58,8 +58,9 @@ a:hover {
 
 button:hover {
   font-weight: 600;
-  box-shadow:8px 8px 8px #1F2937;
-  transform: scale(1.15);  
+  box-shadow:4px 6px 32px #1F2937;
+  transform: scale(1.15); 
+  border: solid 1.5px #000000; 
 }
 
 .header {
@@ -69,7 +70,7 @@ button:hover {
   padding: 0 10vw;
   background-repeat: no-repeat;
   background-size: contain;
-  box-shadow:  4px 4px 10px black;
+  box-shadow:  30px 5px 30px black;
   border-radius: 0 0 30px 30px;
   position: relative;
   flex-grow: 1;
@@ -80,14 +81,14 @@ button:hover {
   position: absolute;
   left: 0;
   top: 0;
-  width: 34.5%;
+  width: 25%;
   height: 100%;
   opacity: 0.70;
   background-image: url('https://images.unsplash.com/photo-1518562923427-19e694fbd8e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFnZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 30px 30px 30px;
-  box-shadow:  8px 8px 8px black;
+  box-shadow:  6px 8px 8px black;
 }
 
 .header-logo-links {
@@ -126,9 +127,13 @@ button:hover {
 }
 
 button {
+  background-color: #3882f6;
   width: 100px;
   height: Auto;
   margin: 4px;
   position: relative;
-  box-shadow: 3px 1px #1F2937;;
+  border-color: black;
+  border-radius: 16px;
+  border-width: 1px;
+  box-shadow:  4px 6px 32px #1F2937;
 }
