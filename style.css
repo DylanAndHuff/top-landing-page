@@ -40,6 +40,8 @@ li {
 
 a {
   text-shadow: 3px 1px #000000;
+  transform: scale(1); 
+  transition-duration: .5s;
 }
 
 a,
@@ -52,15 +54,30 @@ a,
 a:hover {
   color: #d7b592;
   transform: scale(1.15);
-  text-shadow: none;
+  transition-duration: .3s;
   font-weight: bold;
-  text-shadow: 3px 1px #000000;
+  
+}
+
+button {
+  background-color: #3882f6;
+  width: 100px;
+  height: Auto;
+  margin: 4px;
+  position: relative;
+  border-color: black;
+  border-radius: 16px;
+  border-width: 1px;
+  box-shadow:  4px 6px 32px #1F2937;
+  transform: scale(1); 
+  transition-duration: .3s;
 }
 
 button:hover {
   font-weight: 600;
   box-shadow:4px 6px 32px #1F2937;
   transform: scale(1.15); 
+  transition-duration: .3s;
   border: solid 1.5px #000000; 
 }
 
@@ -70,7 +87,6 @@ button:hover {
   flex-direction: column;
   padding: 0 10vw;
   background-repeat: no-repeat;
-  background-size: contain;
   box-shadow:  30px 5px 30px black;
   border-radius: 0 0 30px 30px;
   position: relative;
@@ -129,16 +145,4 @@ button:hover {
   margin-top: 0;
   margin: 4px;
   position: relative;
-}
-
-button {
-  background-color: #3882f6;
-  width: 100px;
-  height: Auto;
-  margin: 4px;
-  position: relative;
-  border-color: black;
-  border-radius: 16px;
-  border-width: 1px;
-  box-shadow:  4px 6px 32px #1F2937;
 }
