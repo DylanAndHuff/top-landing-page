@@ -9,9 +9,11 @@ body {
   box-shadow:  4px 6px 32px black;
   border-radius: 30px;
   width: 450px;
-  flex-grow: .5;
+  flex-grow: 1;
   width: 33%;
   min-width: 600px;
+  max-width: 1000px;
+
 }
 
 .bagel-daze-logo {
@@ -21,7 +23,7 @@ body {
 }
 
 h1 {
-  margin: 4px 4px 0px 4px;
+  margin: -175px 4px 0px 4px;
   position: relative;
   text-shadow: 5px 1px #1F2937;
 }
@@ -58,7 +60,7 @@ a:hover {
   transform: scale(1.15);
   transition-duration: .3s;
   font-weight: bold;
-  
+
 }
 
 button {
@@ -125,7 +127,6 @@ font {
   justify-content: space-between;
   align-items: center;
   margin-top: -35px;
-
 }
 
 .top-links {
@@ -157,6 +158,7 @@ font {
   text-shadow: 3px 1px #1F2937;
   padding-right: 64px;
   flex-basis: 75%;
+  max-width: 1300px;
   margin-top: 0;
   margin: 4px;
   padding-bottom: 8px;
