@@ -2,6 +2,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  min-width: 100vw;
 }
 
 .benedict {
@@ -23,9 +24,9 @@ body {
 }
 
 h1 {
-  margin: -175px 4px 0px 4px;
   position: relative;
   text-shadow: 5px 1px #1F2937;
+  margin-bottom: 0;
 }
 
 
@@ -138,7 +139,6 @@ font {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 75px 0 75px 0;
   align-items: center;
   flex-basis: 50%;
   color: #F9FAF8;
