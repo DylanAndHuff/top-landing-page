@@ -88,9 +88,10 @@ button:hover {
   transform: scale(1.15); 
   transition-duration: .3s;
   border: solid 1.5px  #F9FAF8; 
+  margin-top: -1px;
 }
 
-.order-button:hover {
+.order-button:hover: {
   box-shadow:4px 6px 32px  #F9FAF8;
   transform: scale(1.15); 
   transition-duration: .3s;
