@@ -63,7 +63,7 @@ a:hover {
 
 }
 
-button {
+.order-button {
   background-color: #3882f6;
   color: #F9FAF8;
   font-weight: 600;
@@ -84,10 +84,17 @@ button {
 }
 
 button:hover {
-  box-shadow:4px 6px 32px #1F2937;
+  box-shadow:4px 6px 32px  #F9FAF8;
   transform: scale(1.15); 
   transition-duration: .3s;
-  border: solid 1.5px #000000; 
+  border: solid 1.5px  #F9FAF8; 
+}
+
+.order-button:hover {
+  box-shadow:4px 6px 32px  #F9FAF8;
+  transform: scale(1.15); 
+  transition-duration: .3s;
+  border: solid 1.5px  #F9FAF8; 
 }
 
 font {  
@@ -98,7 +105,7 @@ font {
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
-  padding: 0 10vw 4vw 10vw;
+  padding: 0 10vw 6vw 10vw;
   background-repeat: no-repeat;
   box-shadow:  20px 2px 30px black;
   border-radius: 0 0 30px 30px;
@@ -180,22 +187,12 @@ font {
 	transition: .3s ease-in-out;
 }
 
-.description  {
-  width: 300px;
-  text-align: center;
-  margin: 0;
-  padding-left: 35px;
-  text-align: center;
-  font-size: 18px;
-}
-
 .top-menu-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-width: fit-content;
   margin-top: 50px;
-  margin-bottom: 150px;
 }
 
 h2 {
@@ -206,7 +203,17 @@ h2 {
 
 .top-menu-images {
   display: flex;
+  transform: scale(.8);
+}
+
+.description  {
+  width: 300px;
+  text-align: center;
+  margin: 10px 0 0 0;
+  padding-left: 30px;
+  text-align: center;
   font-size: 18px;
+  transform: scale(1.15);
 }
 
 .testimony {
@@ -216,6 +223,7 @@ h2 {
   font-size: 36px;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 .customer-testimony{
@@ -223,7 +231,7 @@ h2 {
   color: #1f2937;
   padding: 175px 300px 0 300px;
   margin: 0;
-  width: 50%;
+  width: 56%;
 }
 
 .attribute {
@@ -234,4 +242,44 @@ h2 {
   margin: 0;
   padding-left: 25%;
   padding-bottom: 4%;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  margin: 5% 10%;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.happy-daze {
+  margin: 0;
+}
+
+.offers {
+  margin: 0;
+}
+
+.subscribe-daze {
+  display: flex;
+}
+
+.subscribe {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 600;
+  width: 100px;
+  height: 35px;
+  margin: 4px;
+  border-color: #f9faf8;
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 0px 0px 5px 2px #f9faf8;
+  transform: scale(1); 
+  transition-duration: .3s;
+  padding: 8px 5px;
+  margin: 0 8px 8px 4px;
+  display: flex;
+  justify-content: center;
 }
