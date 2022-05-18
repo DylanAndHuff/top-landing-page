@@ -92,7 +92,7 @@ a:hover {
 }
 
 button:hover {
-  box-shadow:4px 6px 32px  #F9FAF8;
+  box-shadow:6px 6px 40px 6px  #F9FAF8;
   transform: scale(1.15); 
   transition-duration: .3s;
   border: solid 1.5px  #F9FAF8; }
@@ -101,7 +101,7 @@ button:hover {
   box-shadow:4px 6px 32px  #F9FAF8;
   transform: scale(1.15); 
   transition-duration: .3s;
-  border: solid 1.5px  #F9FAF8; 
+  border: solid 1.5px  #F9FAF8;
 }
 
 font {  
@@ -253,20 +253,24 @@ h2 {
 
 .subscribe-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between ;
   background-color: #3882f6;
   margin: 5% 10%;
   padding: 2%;
   border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20% ;
+  padding-right: 20%;
+  color: #F9FAF8;
 }
 
-.happy-daze {
+.happy-daze,
   margin: 0;
+  color: #F9FAF8;
 }
 
-.offers {
-  margin: 0;
-}
 
 .subscribe-daze {
   display: flex;
@@ -274,7 +278,7 @@ h2 {
 
 .subscribe {
   background-color: #3882f6;
-  color: #f9faf8;
+  color: #F9FAF8;
   font-weight: 600;
   width: 100px;
   height: 35px;
