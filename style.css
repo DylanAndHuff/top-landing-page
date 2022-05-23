@@ -214,11 +214,10 @@ h2 {
 }
 
 .description  {
-  width: 300px;
+  width: 250px;
   text-align: center;
   margin: 10px 0 0 0;
-  padding-left: 30px;
-  text-align: center;
+  padding-left: 55px;
   font-size: 18px;
   transform: scale(1.15);
 }
