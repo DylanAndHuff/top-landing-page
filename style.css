@@ -88,7 +88,6 @@ a:hover {
   margin: 0 8px 8px 4px;
   display: flex;
   justify-content: center;
-  margin-top: 0px;
 }
 
 button:hover {
@@ -286,6 +285,7 @@ h2 {
 
 .subscribe-for-special {
   margin: 0;
+  color: #80F9FAF8;
 }
 
 .subscribe-daze {
