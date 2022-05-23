@@ -88,14 +88,16 @@ a:hover {
   margin: 0 8px 8px 4px;
   display: flex;
   justify-content: center;
-  margin-top: -1px;
+  margin-top: 0px;
 }
 
 button:hover {
   box-shadow:6px 6px 40px 6px  #F9FAF8;
   transform: scale(1.15); 
   transition-duration: .3s;
-  border: solid 1.5px  #F9FAF8; }
+  border: solid 1.5px  #F9FAF8; 
+  margin-top: -1px;
+}
 
 .order-button:hover: {
   box-shadow:4px 6px 32px  #F9FAF8;
